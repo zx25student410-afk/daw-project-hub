@@ -1,0 +1,5 @@
+*.log
+.env
+notas-temporales.txt
+.vscode/
+.idea/
