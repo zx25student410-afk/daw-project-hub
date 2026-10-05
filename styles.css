@@ -43,3 +43,10 @@ footer {
     margin-top: 20px;
     background: #e0e0e0;
 }
+
+h2 {
+    color: #007acc;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
