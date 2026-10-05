@@ -1,6 +1,6 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.8;
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
@@ -17,6 +17,24 @@ header {
 main {
     padding: 20px;
     background: white;
+}
+
+p {
+    margin-bottom: 15px;
+    padding: 10px;
+    border-left: 5px solid;
+}
+
+.parrafo-1 {
+    border-color: #e74c3c;
+}
+
+.parrafo-2 {
+    border-color: #2ecc71;
+}
+
+.parrafo-3 {
+    border-color: #f1c40f;
 }
 
 footer {
