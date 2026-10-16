@@ -28,3 +28,12 @@ Es preferible realizar varios commits pequeños y coherentes en lugar de uno sol
 - **Archivo afectado:** `index.html`.
 - **Decisión tomada:** Se interpretaron los marcadores de conflicto (`<<<<<<<`, `=======`, `>>>>>>>`) y se redactó una versión combinada que integra ambas ideas: *"Un espacio para conocer las fases del desarrollo, publicación y despliegue de aplicaciones web."*
 - **Comprobación:** Se eliminaron las marcas de conflicto, se preparó el archivo con `git add`, se completó el commit de merge y se verificó que el repositorio quedó en un estado limpio con `git status` y `git log --oneline --graph`.
+
+## Instrucciones de uso
+
+Para visualizar la página web en tu navegador:
+1. Clona el repositorio en tu máquina local mediante SSH:
+   `git clone git@github.com:zx25student410-afk/daw-project-hub.git`
+2. Navega al directorio del proyecto:
+   `cd daw-project-hub`
+3. Abre el archivo `index.html` directamente en tu navegador web preferido o utiliza la extensión **Live Server** en Visual Studio Code.
