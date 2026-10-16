@@ -37,3 +37,35 @@ Para visualizar la página web en tu navegador:
 2. Navega al directorio del proyecto:
    `cd daw-project-hub`
 3. Abre el archivo `index.html` directamente en tu navegador web preferido o utiliza la extensión **Live Server** en Visual Studio Code.
+
+## Forks y colaboración
+
+1. **¿Qué es un fork en GitHub?**
+   Es una copia completa e independiente de un repositorio ajeno alojada en tu propia cuenta de GitHub, que te permite hacer cambios libremente sin afectar al proyecto original.
+
+2. **¿En qué se diferencia un fork de una rama?**
+   Una rama vive dentro del mismo repositorio y comparte permisos y contexto directo con el proyecto. Un fork es un repositorio completamente distinto que pertenece a otra cuenta de GitHub.
+
+3. **¿En qué cuenta se almacena un fork?**
+   Se almacena en la cuenta personal (o de organización) del usuario que realiza la copia, no en la del propietario original.
+
+4. **¿Cuándo resulta útil trabajar mediante un fork?**
+   Es útil al colaborar en proyectos de código abierto (*open source*) o cuando no se tienen permisos directos de escritura en el repositorio original.
+
+5. **¿Qué relación existe entre el repositorio original y el fork?**
+   Mantienden un vínculo de origen que permite comparar cambios, enviar propuestas de mejora (*Pull Requests*) y sincronizar novedades del proyecto original hacia el fork.
+
+6. **¿Qué es el repositorio upstream?**
+   Es el término que se utiliza para referirse al repositorio fuente u original a partir del cual creaste tu fork.
+
+7. **¿Qué diferencia existe entre `origin` y `upstream`?**
+   `origin` apunta a tu copia remota personal (tu fork), mientras que `upstream` apunta al repositorio remoto original del autor o proyecto fuente.
+
+8. **¿Cómo se propone que un cambio del fork llegue al repositorio original?**
+   Mediante la solicitud de una propuesta de cambio llamada **Pull Request (PR)** enviada desde una rama del fork hacia la rama principal del repositorio original.
+
+9. **¿Quién decide si se acepta la propuesta?**
+   Los propietarios, mantenedores o administradores con permisos de escritura en el repositorio original (`upstream`).
+
+10. **¿Puede seguir evolucionando el repositorio original mientras existe el fork?**
+    Sí, ambos repositorios avanzan de forma independiente. El creador del fork debe sincronizar periódicamente su copia con el repositorio `upstream` para mantenerse al día.
