@@ -12,7 +12,7 @@ Es preferible realizar varios commits pequeños y coherentes en lugar de uno sol
 
 1. **¿Por qué `.env.example` puede publicarse?**
    Porque solo contiene la estructura o plantilla de las variables de entorno sin valores reales ni secretos, sirviendo de guía para otros desarrolladores.
-
+Edición remota de prueba.
 2. **¿Por qué `.env` debe ignorarse?**
    Porque contiene credenciales, claves API o tokens de acceso reales que, si se hacen públicos, comprometerían la seguridad de la aplicación.
 
